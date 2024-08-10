@@ -1,0 +1,145 @@
+/*  MD Maminul Islam  DIY Code Registration Form Layout Design Class 3  */
+
+/* Global CSS */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:"Poppins", sans-serif;;
+    box-sizing: border-box;
+}
+/* Body Font size  */
+body{
+    
+    font-size: 16px;
+}
+/* ul mar pad */
+ul{
+    margin: 0;
+    padding: 0;
+
+}
+
+a, a:hover{
+    text-decoration: none;
+}
+
+/* Main Form Section mar,pad,bg,hei,wid */
+.form-section{
+    width: 100%;
+    background: url(img/background-i) center center no-repeat ;
+    background-size:cover;
+    height: 100vh;
+    
+}
+
+/* Container section */
+.container{
+    width: 1140px;
+margin: 0 auto;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+
+.form-inside{
+    width: 60%;
+   display: flex;
+
+
+
+   /* test for gredient color */
+   background: linear-gradient(
+    180deg,
+    rgb(79, 12, 235) 10%,
+    rgba(47, 13, 184, 1) 84%);
+    
+    opacity: 0.90;
+    padding: 20px;
+    border-radius: 10px 2px;
+    
+   
+}
+
+/* left side used for img and flex basis ekhane left right duita div niye eder k flex basis kore vag kore deya hoyeche */
+.left{
+    background:url(img/reg_2.png) center center no-repeat;
+    background-size: contain;
+    flex-basis: 50%;
+}
+
+/* right side shudhu form er input er jonno */
+.right{
+    flex-basis: 50%;
+}
+
+/* eta reg form er text tar style */
+h2{
+    text-align: center;
+    margin: 10px 0 20px ;
+
+    /* try */
+
+    color: white;
+
+
+    /* color: #9932cc; */
+}
+
+/* try for gredient color*/
+
+/* span tag design */
+span{
+    color: white;
+}
+
+/* used for terms and conditions color change(white) because of grediant color overlay */
+ span a{
+    text-decoration: none;
+    color: white;
+}
+
+/* used for wid.hei,bottom etc */
+input,select,textarea{
+    width:100%;
+    padding: 8px 4px;
+    margin-bottom: 10px;
+
+}
+
+/* agreeebox mean terms policy radio box checkmark */
+
+.agreebox input{
+    width: auto;
+}
+
+/* submit button style design */
+.submit{
+    margin: 15px 0 10px;
+    
+}
+.submit input{
+    background: #9932cc;
+    border-radius: 1px solid #9932cc;
+    color: white;
+    font-size:  15px;
+    text-transform: uppercase;
+    transition: 0.4s;
+    border-radius: 0px 5px;
+}
+
+/* submit button hover design color change purple to blue */
+.submit input:hover{
+    background: rgb(30, 64, 216);
+    color: white;
+    transition: 0.4s;
+}
+
+
+/* end Style */
+
+/* All Rights reserved by maminul
+class 3 mentor Ali Muzahid from Shikhbe Shobai */
+

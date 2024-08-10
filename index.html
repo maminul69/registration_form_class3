@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!-- MD Maminul Islam  ||  Registarion Form Class 3  -->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS Link -->
+     <link rel="stylesheet" href="style.css">
+     <!-- Google Font Linking (Poppins)-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+     <!-- Font Awesome Link -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+     <!-- title  -->
+    <title>Registration Form</title>
+</head>
+<body>
+   <section class="form-section">
+    <div class="container">
+        <div class="form-inside">
+
+            <div class="left">
+                <!--This Div Only Used for CSS Section to add an image beside the registration box  -->
+            </div>
+
+            <!-- Right Div used for Registration Form -->
+            <div class="right">
+                <form>
+                    <h2>REGISTRATION FORM</h2>
+                    <!-- First Name and last name -->
+                    <div class="name">
+                        <input type="text" placeholder="Enter Your First Name" required>
+            
+                        <input type="text" placeholder="Enter Your Last Name" required>
+                    </div>
+                    <!-- Email Section -->
+                    <div class="email">
+                        <input type="email" placeholder="Enter Your Email Address"required>
+                    </div>
+                    <!-- Password Section -->
+                    <div class="pass">
+                        <input type="password" placeholder="Create a Password"required>
+                    </div>
+                    <!-- Date Of Birth class -->
+                    <div class="dob">
+                        <span  >Enter Your Date Of Birth:</span>
+                       <input type="date" required>
+                    </div>
+                    <!-- Gender -->
+                    <div class="gender">
+                        <select required>
+                            <option >
+                                Select Your Gender
+                            </option>
+                            <option >
+                                Male
+                            </option>
+                            <option >
+                                Female
+                            </option>
+                            <option >
+                                Prefer Not To Say
+                            </option>
+                        </select>
+                    </div>
+                    <!-- Additional Message Box -->
+                    <div class="message-area">
+                        <span>Additional Message</span>
+                        <textarea></textarea>
+                    </div>
+                        <!-- Checkbox Section -->
+                    <div class="agreebox">
+                        <input type="checkbox" required>
+                        <span> I Agree With The <a href="#">Terms & Condition.</a></span>
+                    </div>
+                    <!-- Submit Button Section -->
+                    <div class="submit">
+                        <input type="submit" value="Submit" required>
+                        
+                    </div>
+                </form>
+            </div>
+            
+        </div>
+    </div>
+   </section>
+</body>
+</html>
